@@ -5,7 +5,7 @@
   "author": "Naohiro Iwamoto <naohiro-iwamoto@gmo.jp>",
   "license": "MIT",
   "scripts": {
-    "test": "mocha --require ts-node/register test/*.ts",
+    "test": "cross-env TS_NODE_COMPILER_OPTIONS={\\\"module\\\":\\\"commonjs\\\"} mocha --require ts-node/register test/*.ts",
     "build": "webpack"
   },
   "dependencies": {
@@ -16,6 +16,7 @@
     "@types/chai": "^4.1.6",
     "@types/mocha": "^5.2.5",
     "chai": "^4.2.0",
+    "cross-env": "^5.2.0",
     "mocha": "^5.2.0",
     "ts-loader": "^5.2.1",
     "ts-node": "^7.0.1",

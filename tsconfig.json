@@ -3,7 +3,7 @@
       "target": "es5",
       "lib": ["es6"],
       "types": ["reflect-metadata"],
-      "module": "commonjs",
+      "module": "es6",
       "moduleResolution": "node",
       "experimentalDecorators": true,
       "emitDecoratorMetadata": true
