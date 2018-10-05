@@ -1,0 +1,26 @@
+{
+  "name": "dicontainer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Naohiro Iwamoto <naohiro-iwamoto@gmo.jp>",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha --require ts-node/register test/*.ts",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "inversify": "^4.13.0",
+    "reflect-metadata": "^0.1.12"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.6",
+    "@types/mocha": "^5.2.5",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "ts-loader": "^5.2.1",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.1.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
